@@ -1,0 +1,753 @@
+* {
+   padding: 0%;
+   margin: 0%;
+   box-sizing: border-box;
+   background-color: black;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+
+body {
+   background-color: black;
+   color: white;
+   overflow-x: hidden ;
+}
+
+div label h1 {
+   margin-right: 202px;
+}
+
+nav {
+   background-color: black;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   height: 50px;
+   position: fixed;
+   width: 100%;
+}
+
+nav ul :hover {
+   color: #FFBD39;
+   text-decoration: underline;
+   /*in nav u can see underline property*/
+}
+
+nav ul {
+   display: flex;
+   flex-direction: row;
+   background-color: navajowhite;
+
+}
+
+nav li {
+   list-style-type: none;
+}
+
+li a {
+   text-decoration: none;
+   color: aliceblue;
+   padding: 10px 25px;
+   font-size: 18px;
+   /* line-height: 50px; */
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+}
+
+.container h2 {
+   padding: 20px 20px 0px 0px;
+   margin: 0px 0px 0px 50px;
+   font-size: 90px;
+   width: 550px;
+}
+
+.container p {
+   padding: 20px 20px 20px 0px;
+   margin: 0px 0px 0px 50px;
+   font-size: 30px;
+}
+
+.container div img {
+   margin: 5px;
+   padding: 50px;
+}
+
+.container h2 span {
+   color: #FFBD39;
+}
+
+.container .button {
+   margin: 0px 0px 0px 50px;
+   font-size: 9px;
+   /* those proprties are not applu on .container .buttom thats why i make .container button*/
+
+}
+
+.container button {
+   border-radius: 35px;
+   padding: 20px;
+   width: 110px;
+   border: white;
+}
+
+/*container1 statrs from here */
+.container1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+
+}
+
+.container1 div img {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 50px;
+}
+
+.container1 h1 {
+   font-size: 60px;
+   margin: 50px;
+}
+
+.container1 p {
+   width: 480px;
+   margin: 50px;
+   color: grey;
+   font-size: 27px;
+}
+
+.container1 tr td {
+   /* margin:40px; */
+   padding: 13px;
+   text-align: left;
+   color: grey;
+
+}
+
+.container1 table {
+   margin: 50px;
+}
+
+.container1 tr th {
+   text-align: left;
+}
+
+.container1 h3 {
+   margin: 50px;
+}
+
+.container1 button {
+   margin: 0px 0px 50px 50px;
+   border-radius: 25px;
+   font-size: 20px;
+   height: 55px;
+   width: 160px;
+}
+
+.resume {}
+
+.resume h1 {
+   font-size: 60px;
+   text-align: center;
+   margin-bottom: 40px;
+   margin-top: 70px;
+}
+
+.resume p {
+   /* width:900px; */
+   text-align: center;
+   line-height: 11px;
+   margin-bottom: 15px;
+   font-size: 20px;
+   color: grey;
+   width: 70%px;
+}
+
+.card {
+   /* background-color: #262626; */
+   display: grid;
+   grid-template-columns: 580px 580px;
+   align-content: center;
+   /* grid-template-columns: center; */
+   justify-content: center;
+
+
+}
+
+
+.card div {
+   /* border: 1px solid white;            u have to check no gap required betwwen 1 and px */
+   padding: 20px;
+   margin: 20px;
+   width: 500px;
+   height: 300px;
+   background-color: hsl(0, 3%, 12%);
+}
+
+.card h1 {
+   background-color: hsl(0, 3%, 12%);
+   color: #FFBD39;
+}
+
+.card h3 {
+   font-size: 20px;
+   height: 40px;
+   background-color: hsl(0, 3%, 12%);
+   margin-top: 15px;
+}
+
+.card h6 {
+   /* height: 15px; */
+   background-color: hsl(0, 3%, 12%);
+   margin-bottom: 15px;
+   color: grey;
+   /*margin is imp*/
+}
+
+.card h5 {
+   font-size: 18px;
+   /*imp*/
+   background-color: hsl(0, 3%, 12%);
+   height: 40px;
+   color: grey;
+   /* width: 500px; */
+   line-height: 25px;
+}
+
+.resumebutton button {
+   border-radius: 50px;
+   text-align: center;
+   width: 190px;
+   height: 70px;
+   margin: 90PX 43%;
+   font-size: 15px;
+
+}
+
+.services h1 {
+   text-align: center;
+   font-size: 60px;
+   margin: 120px 0 20px 0;
+}
+
+.services p {
+   text-align: center;
+   font-size: 27px;
+   color: grey;
+   margin: 40px;
+}
+
+.box {
+   display: grid;
+   grid-template-columns: 25% 25% 25%;
+   justify-content: center;
+   align-items: center;
+}
+
+.box div {
+   border: 1px solid white;
+   padding: 20px;
+   margin: 18px;
+   text-align: center;
+   height: 230px;
+   /* width:200px;} */
+
+}
+
+.box div:hover {
+   background-color: #FFBD39
+}
+
+.box div {
+   margin: 18px;
+   background-color: hsl(0, 7%, 16%);
+}
+
+.box p {
+   background-color: hsl(0, 7%, 16%);
+   color: #FFBD39;
+   /* font:50px; */
+}
+
+.box p:hover {
+   background-color: #FFBD39;
+
+}
+
+.box div:hover>.box p {
+   background-color: #FFBD39;
+}
+
+.box img {
+   background-color: hsl(0, 7%, 16%);
+}
+
+.box img:hover {
+   background-color: #FFBD39;
+}
+
+.box h5 {
+   background-color: hsl(0, 7%, 16%);
+}
+
+.box h5:hover {
+   background-color: #FFBD39;
+}
+
+.skills h1 {
+   /*skills start here*/
+   text-align: center;
+   padding: 18px;
+   font-size: 60px;
+   margin: 150px 25px;
+}
+
+.skills p {
+   text-align: center;
+   margin: 0px;
+   font-size: 27px;
+   color: grey;
+}
+
+.skillscontain {
+   grid-template-columns: 450px 450px;
+   display: grid;
+   place-items: center;
+   column-gap: 130px;
+   justify-content: center;
+   align-items: center;
+}
+
+.skills .card1 {
+   column-gap: 30px;
+   place-items: center;
+   /* border: 1px solid white; */
+   padding: 10px 25px;
+   margin: 30px;
+   width: 500px;
+   text-align: left;
+
+}
+
+.skills .card1 .progressline {
+   height: 10px;
+   width: 95%;
+   background: #504e4a;
+   border-radius: 7px;
+   /* color: #FFBD39; */
+   /* content: 80%; */
+   margin-bottom: 30px;
+}
+
+.progressbar {
+   background-color: #FFBD39;
+   height: 10px;
+   border-radius: 7px;
+   /* margin-bottom:70px; */
+   /* paddng-bottom: 40px; */
+}
+
+.card1 .progressbar {
+
+   /* margin: 30px ; */
+}
+
+/* .skills .card1 .line1{
+   height: 10px;
+   width: 5%;
+   background:  #FFBD39;
+   border-radius: 7px;
+   color: black;;
+   content: 80%;   */
+
+.card1 h5 {
+   text-align: right;
+   /* margin:20px; */
+   font-size: 23px;
+   margin-top: -19px;
+   /* set margin to display text inine */
+}
+
+.skills .card1 h6 {
+   text-align: left;
+   /* margin:15px;
+   padding: 5px; */
+   font-size: 20px;
+
+}
+
+
+.projects h1 {
+   text-align: center;
+   margin: 50px 25px;
+   font-size: 60px;
+
+}
+
+.projects p {
+   text-align: center;
+   margin: 30px;
+   font-size: 27px;
+   color: grey;
+}
+
+.projectflex {
+   display: flex;
+   /* grid-template-clumns: auto auto; */
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 30px;
+}
+
+/* .projectflex .short1 */
+.projectflex .short1 {
+   width: 400px;
+   height: 306px;
+   /* margin: 200px; */
+   background-image: url(code1.avif);
+}
+
+.projectflex .long1 {
+   width: 700px;
+   height: 306px;
+   /* background-repeat: no-repeat; */
+   background-image: url(code2.avif);
+}
+
+/* .projectflex .short {
+
+} */
+.projectflex .long1:hover {
+   background-color: #FFBD39;
+
+}
+
+.projectflex .long2 {
+   width: 700px;
+   height: 306px;
+   background-image: url(code3.avif);
+
+}
+
+.projectflex .short2 {
+   width: 400px;
+   height: 306px;
+   background-image: url(code4.avif);
+}
+
+.projectflex .long3 {
+   width: 700px;
+   height: 306px;
+   background-image: url(code5.avif);
+}
+
+.projectflex .short3 {
+   width: 400px;
+   height: 306px;
+   background-image: url(code6.avif);
+}
+
+.blog h1 {
+   font-size: 60px;
+   margin: 60px;
+   text-align: center;
+}
+
+.blog p {
+   font-size: 20px;
+   color: grey;
+   margin: 39px;
+   text-align: center;
+}
+
+.blog-grid {
+   display: grid;
+   grid-template-columns: 350px 350px 350px;
+   gap: 10px;
+   justify-content: center;
+   align-items: center;
+   /* margin: 0 10px 0 0; */
+}
+
+.blog-grid div {
+   /* background-image:url(lap7.avif) ; */
+   /* background-color: #FFBD39; */
+   /* padding: 90px; */
+   /* margin:10px; */
+   border: 1px spolid white;
+   /* column-gap: 20px; */
+   /* margin: -7px; */
+}
+
+.image {
+   margin-right: 20px;
+   padding: 30px;
+}
+
+.image p {
+   color: #FFBD39;
+   margin: 11px 0 11px 0;
+}
+
+.image h2 {
+   margin: 20px 0 20px 0;
+   text-align: left;
+}
+
+.image h6 {
+   color: grey;
+   margin: 11px 0 11px 0;
+   font-size: 18px;
+}
+
+.my-blog {
+   display: grid;
+   grid-template-columns: 17% 17% 17% 17%;
+   justify-content: center;
+   /* height: 200; */
+   align-items: center;
+   gap: 30px;
+   margin: 200px 20px 20px 20px;
+
+
+}
+
+.blog-iamge {
+   background-image: url(bg_1.jpg);
+   background-size: cover;
+   height: 500px;
+   width: 100%;
+   position: relative;
+   top: -102px;
+   margin: 20px;
+   /* padding: 20px; */
+}
+
+.my-blog div {
+   background-color: #292424;
+   /* padding:10px; */
+   /* border: 1px solid white; */
+   height: 150px;
+   z-index: 1;
+   padding: 20px;
+}
+
+.my-blog h1 {
+   margin: 10px;
+   color: #FFBD39;
+   text-align: center;
+   font-size: 50px;
+   background-color: #292424;
+}
+
+.my-blog p {
+   margin: 10px;
+   font-size: 20px;
+   text-align: center;
+   background-color: #292424;
+   /* color: grey; */
+}
+
+.blog-text {
+   text-align: center;
+   /* margin-top:20px ; */
+   font-size: 27px;
+
+}
+
+.blog-text span {
+   color: #FFBD39;
+   background-color: transparent;
+
+}
+
+.blog-text {
+   margin-bottom: -256px;
+}
+
+.blog-text h1 {
+   margin-top: 30px;
+   position: relative;
+   top: -450px;
+   background-color: transparent;
+}
+
+.blog-text p {
+   margin-top: 20px;
+   position: relative;
+   top: -450px;
+   background-color: transparent;
+   color: rgb(166, 161, 161);
+   font-size: 23px;
+}
+
+.blog-text button {
+   border-radius: 40px;
+   position: relative;
+   top: -404px;
+   background-color: transparent;
+   height: 53px;
+   width: 163px;
+   background-color: #FFBD39;
+   font-size: 11px;
+}
+
+.contact {}
+
+.contact h1 {
+   text-align: center;
+   font-size: 60px;
+}
+
+.contact p {
+   text-align: center;
+   font-size: 18px;
+   color: grey;
+}
+
+.contactflex {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contactflex i {
+   font-size: 30px;
+   background-color: #32312e;
+   color: #FFBD39;
+   border-radius: 50%;
+   margin: 110px 110px 10px 110px;
+
+   height: 70px;
+   width: 70px;
+   line-height: 70px;
+   text-align: center;
+
+}
+
+.contactflex H3 {
+   font-size: 20PX;
+   text-align: center;
+   margin: 15px;
+}
+
+.contactflex p {
+   font-size: 20PX;
+   text-align: center;
+   margin: 15px;
+   color: rgb(151, 142, 142);
+}
+
+.forms {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 60px;
+   height: 500px;
+   margin-bottom: 60px;
+}
+
+.forms form {
+   padding: 48px;
+   margin-top: -3px;
+   /* background-color: white; */
+   /* height: 120px; */
+   background-color: white;
+   text-align: left;
+   height: 550px;
+   width: 450px;
+
+}
+
+.forms form input {
+   background-color: white;
+   /* padding: 10px 20px 10px 20px; */
+   margin: 11px;
+   height: 40px;
+   width: 336px;
+   outline: none;
+   border-radius: 4px;
+   border: 1px solid grey;
+
+}
+
+.forms form textarea {
+   background-color: white;
+   width: 336px;
+   border: 1px solid grey;
+   outline: none;
+   margin: 11px;
+}
+
+.forms form button {
+   background-color: #FFBD39;
+   border-radius: 30px;
+   height: 30px;
+   width: 120px;
+   margin-left: 10px;
+}
+
+.final {
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+   padding: 60px 150px;
+   overflow: hidden;
+}
+
+.final div {
+   padding: 50px;
+
+}
+
+.final h1 {
+   padding: 10px;
+}
+
+.final p {
+   color: rgb(193, 184, 184);
+   font-size: 20px;
+
+}
+
+.final ul {
+   padding: 0px 0 0 20px;
+   color:rgb(192, 196, 198) ;
+}
+
+.final ul li {
+   padding: 5px;
+}
+
+.final div:last-child {
+   width: 279px;
+}
+
+.final i {
+   padding: 7px;
+   font-size: 20px;
+color: green;
+}
+.final span{
+   color: rgb(192, 196, 198);
+}
+footer{
+   text-align: center;
+   color:white;
+   padding: 25px;
+}
+footer span{
+   color: #0af15b;
+}
